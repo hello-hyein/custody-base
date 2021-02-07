@@ -677,12 +677,12 @@
 	}
 
 	.sect1 {
-		height: 500px;
 		background: linear-gradient(90deg, #FAFAFA 50%, #F0F0F0 50%);
 		background-position: center;
 	}
 
 	.sect1 .container {
+		height: 500px;
 		padding: 0;
 		background-image: url('../images/sect1_bg.png');
 		background-size: 1920px;
@@ -703,6 +703,7 @@
 	}
 
 	.sect1 .container .con-left .title {
+		margin-bottom: 0;
 		font-size: 3.75rem;
 	}
 
