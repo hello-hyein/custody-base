@@ -679,13 +679,15 @@
 	.sect1 {
 		height: 500px;
 		background: linear-gradient(90deg, #FAFAFA 50%, #F0F0F0 50%);
-		background-image: url('../images/sect1_bg.png');
-		background-size: 1920px;
 		background-position: center;
 	}
 
 	.sect1 .container {
 		padding: 0;
+		background-image: url('../images/sect1_bg.png');
+		background-size: 1920px;
+		background-repeat: no-repeat;
+		background-position: center;
 	}
 
 	.sect1 .container .con-left img {
